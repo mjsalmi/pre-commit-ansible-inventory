@@ -1,0 +1,10 @@
+---
+- id: ansible-inventory
+  name: ansible-inventory
+  description: Run ansible-inventory on inventory file
+  entry: ansible-inventory-wrapper
+  language: python
+  pass_filenames: true
+  always_run: false
+  additional_dependencies:
+    - .[ansible]
