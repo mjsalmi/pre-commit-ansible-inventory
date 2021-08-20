@@ -20,4 +20,4 @@ This hook runs `ansible-inventory` against files defined in pre-commit config. A
 
 ## License
 
-This software is licensed under the MIT license (see the `LICENSE.txt` file).
+This software is licensed under the MIT license (see the `LICENSE` file).
